@@ -4,7 +4,7 @@
   }
 
 body{
-    background-color: linear-gradient(rgba(0, 0, 0, 0.4), rgba(236, 150, 20, 0.2)); /* !!!!!!!!*/
+    background-color: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)); /* !!!!!!!!*/
 }
 
 /* NAV section */
@@ -56,7 +56,7 @@ a{
     margin: 0;
     height: 500px;
     top: 120px;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(236, 150, 20, 0.2)), url("..//images/colombe.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(8, 6, 3, 0.2)), url("..//images/colombe.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,25 +106,21 @@ a{
 
 /* PHOTOS1 section */
 
-.arrivee, .ABJM {
-    text-align: center;
+.arrivee, .ABJM {    
     width: auto;
     margin: 50px auto; 
 }
-
-
 
 .photo{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
-
 
 .arrivee img{
     width: 200px;
 }
-
 
 .ABJM img{
     width: 500px;
@@ -132,6 +128,7 @@ a{
 
 .photo p{
     padding: 10px;
+    line-height: 120%;
 }
 
 .bouteille{
@@ -141,7 +138,6 @@ a{
 .bouteille img{
     width: 500px;    
 }
-
 
 /* CITATION section */
 
@@ -156,8 +152,6 @@ a{
     font-size: 20px;
     padding: 10px;
 }
-
-
 
 /* FOOTER section */
 
@@ -180,7 +174,7 @@ footer{
 .para{
     margin: 40px auto;
     padding: 20px;
-    width: 60%;
+    width: 80%;
     font-size: 20px;   
     line-height: 120%;
 }
@@ -189,39 +183,53 @@ footer{
     background-color: rgba(128, 128, 128, 0.226);
 }
 
-
 /* OEUVRE PAGE */
 
 #introeuvre{
-    margin-top: 40px; 
+    margin: 60px auto; 
+    width: 80%;
 }
 
-#intro40{
-    margin: 60px;
+#intro40, #intro50{
+    margin: 60px auto;
+}
+
+#magasin{    
+    text-align: center;
+    margin-bottom: 60px;
 }
 
 #annees40{
     display: flex;
     flex-wrap: wrap;
-    margin: 20px auto;
+    margin: 20px auto 60px auto;
     height: auto;
     width: 80%;
-    background-color: rgba(128, 128, 128, 0.24);
-    text-align: center;
+    background-color: rgba(128, 128, 128, 0.24);    
     align-content: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
-#magasin{
-    margin: 80px;
-}
-
-#annees40 .photo{
+#annees40 .photo, #annees50 .photo{
     top: 0;
-    margin: 40px;
+    margin: 30px;
 }
 
 .photo #potiche p{
     width: 300px;
     float: right;
+    text-align: left;
+}
+
+#annees50{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto 60px auto;
+    height: auto;
+    width: 80%;
+    background-color: rgba(128, 128, 128, 0.24);    
+    align-content: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 120px;
 }
