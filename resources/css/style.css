@@ -87,7 +87,7 @@ a{
 
 /* INTRO Section*/
 
-.intro, .citation, .bouteille, .photo {
+.intro, .citation, .bouteille, .photo, .para {
     position: relative;
     top: 120px;
 }
@@ -157,6 +157,22 @@ a{
     font-size: 20px;
     padding: 10px;
 }
+
+/* PARA section*/
+
+.para{
+    margin: 40px auto;
+    padding: 20px;
+    width: 60%;
+    font-size: 20px;   
+    line-height: 120%;
+}
+
+#p2{
+    background-color: grey;
+}
+
+
 
 /*FOOTER section*/
 
