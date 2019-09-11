@@ -7,7 +7,7 @@ body{
     background-color: linear-gradient(rgba(0, 0, 0, 0.4), rgba(236, 150, 20, 0.2)); /* !!!!!!!!*/
 }
 
-/*NAV section*/
+/* NAV section */
 
 nav{
     padding: 0;
@@ -49,7 +49,7 @@ a{
     border-radius: 3px;
 }
 
-/*BANNER section*/
+/* BANNER section */
 
 .banner{
     padding: 0;
@@ -85,9 +85,9 @@ a{
       padding: 10px;
 }
 
-/* INTRO Section*/
+/* INTRO Section */
 
-.intro, .citation, .bouteille, .photo, .para {
+.intro, .citation, .bouteille, .photo, .para, #annees40 {
     position: relative;
     top: 120px;
 }
@@ -104,9 +104,9 @@ a{
     border-radius: 15px;
 }
 
-/*PHOTOS1 section*/
+/* PHOTOS1 section */
 
-.arrivee, .ABJM{
+.arrivee, .ABJM {
     text-align: center;
     width: auto;
     margin: 50px auto; 
@@ -115,7 +115,6 @@ a{
 
 
 .photo{
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,7 +143,7 @@ a{
 }
 
 
-/* CITATION section*/
+/* CITATION section */
 
 .citation{
     text-align: center;
@@ -152,29 +151,15 @@ a{
     background-color: rgba(0, 0, 0, 0.95);
     border-radius: 5px;
     color: seashell;
-    margin: auto;
+    margin: 20px auto;
     height: auto;
     font-size: 20px;
     padding: 10px;
 }
 
-/* PARA section*/
-
-.para{
-    margin: 40px auto;
-    padding: 20px;
-    width: 60%;
-    font-size: 20px;   
-    line-height: 120%;
-}
-
-#p2{
-    background-color: grey;
-}
 
 
-
-/*FOOTER section*/
+/* FOOTER section */
 
 footer{
     position: fixed;
@@ -186,4 +171,57 @@ footer{
     text-align: center;
     padding: 10px;
     font-size: 20px;
+}
+
+/* BIOGRAPHIE PAGE */
+
+/* PARA section */
+
+.para{
+    margin: 40px auto;
+    padding: 20px;
+    width: 60%;
+    font-size: 20px;   
+    line-height: 120%;
+}
+
+#p2{
+    background-color: rgba(128, 128, 128, 0.226);
+}
+
+
+/* OEUVRE PAGE */
+
+#introeuvre{
+    margin-top: 40px; 
+}
+
+#intro40{
+    margin: 60px;
+}
+
+#annees40{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    height: auto;
+    width: 80%;
+    background-color: rgba(128, 128, 128, 0.24);
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#magasin{
+    margin: 80px;
+}
+
+#annees40 .photo{
+    top: 0;
+    margin: 40px;
+}
+
+.photo #potiche p{
+    width: 300px;
+    float: right;
 }
