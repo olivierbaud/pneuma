@@ -189,7 +189,7 @@ footer{
 
 /* OEUVRE PAGE */
 
-#introeuvre{
+#introeuvre, #intropeinture{
     margin: 60px auto; 
     width: 80%;
 }
@@ -250,4 +250,10 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+/*PEINTURES page*/
+
+#peintures{
+    margin: 60px auto;
 }
