@@ -190,13 +190,14 @@ footer{
     width: 80%;
 }
 
-#intro40, #intro50{
+#intro40, #intro50, #intro60, #intro70{
     margin: 60px auto;
 }
 
 #magasin{    
+    margin-top: 180px;
     text-align: center;
-    margin-bottom: 60px;
+   
 }
 
 #annees40{
@@ -210,7 +211,7 @@ footer{
     justify-content: space-evenly;
 }
 
-#annees40 .photo, #annees50 .photo{
+.photo{
     top: 0;
     margin: 30px;
 }
@@ -221,7 +222,7 @@ footer{
     text-align: left;
 }
 
-#annees50{
+#annees50, #annees60, #annees70{
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto 60px auto;
@@ -232,4 +233,17 @@ footer{
     justify-content: space-evenly;
     position: relative;
     top: 120px;
+}
+
+#carreaux3{
+    display: block;
+}
+
+#carreaux3 img{
+    margin: 30px;
+}
+#carreauxcont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
