@@ -118,6 +118,10 @@ a{
     text-align: center;
 }
 
+#home .photo{
+    top: 120px;
+}
+
 .arrivee img{
     width: 200px;
 }
@@ -190,7 +194,7 @@ footer{
     width: 80%;
 }
 
-#intro40, #intro50, #intro60, #intro70{
+#intro40, #intro50, #intro60, #intro70 {
     margin: 60px auto;
 }
 
@@ -211,7 +215,7 @@ footer{
     justify-content: space-evenly;
 }
 
-.photo{
+#oeuvre .photo, #peintures .photo  {
     top: 0;
     margin: 30px;
 }
@@ -222,7 +226,7 @@ footer{
     text-align: left;
 }
 
-#annees50, #annees60, #annees70{
+#annees50, #annees60, #annees70, #peintures {
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto 60px auto;
