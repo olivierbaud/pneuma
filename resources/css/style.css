@@ -194,14 +194,8 @@ footer{
     width: 80%;
 }
 
-#intro40, #intro50, #intro60, #intro70 {
+#intro40, #intro50, #intro60, #intro70, #intromag, #introfab {
     margin: 60px auto;
-}
-
-#intromag{    
-    margin-top: 60px;
-    text-align: center;
-   
 }
 
 #annees40{
@@ -215,7 +209,7 @@ footer{
     justify-content: space-evenly;
 }
 
-#oeuvre .photo, #peintures .photo, #magasin .photo {
+#oeuvre .photo, #peintures .photo, #magasin .photo, #fabrique .photo {
     top: 0;
     margin: 30px;
 }
@@ -226,7 +220,7 @@ footer{
     text-align: left;
 }
 
-#annees50, #annees60, #annees70, #peintures, #magasin {
+#annees50, #annees60, #annees70, #peintures, #magasin, #fabrique {
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto 60px auto;
@@ -254,6 +248,17 @@ footer{
 
 /*PEINTURES page*/
 
-#peintures, #magasin{
+#peintures, #magasin, #fabrique{
     margin: 60px auto;
+}
+
+
+/*essais de mise en page images*/
+#fabrique .photo {
+    width: 30%;
+
+}
+
+#fabrique .photo div, #fabrique .photo img {
+    width: 100%;
 }
