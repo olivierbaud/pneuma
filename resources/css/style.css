@@ -208,7 +208,7 @@ footer{
     justify-content: space-evenly;
 }
 
-#oeuvre .photo, #peintures .photo, #magasin .photo, #fabrique .photo, #magasin2 .photo {
+#oeuvre .photo, #peintures .photo, #magasin .photo, #fabrique .photo, #magasin2 .photo, #piecesuniques .photo {
     top: 0;
     margin: 30px;
 }
@@ -232,7 +232,7 @@ footer{
     top: 120px;
 }
 
-#carreaux3, #cruche{
+#carreaux3, #cruche, #gpc{
     display: block;
 }
 
@@ -243,6 +243,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: center;    
 }
 
 /*PEINTURES page*/
@@ -260,4 +261,18 @@ footer{
 
 #fabrique .photo div {
     width: 100%;
+}
+
+/* OEUVRES UNIQUES page*/
+
+#cruchevert div{
+    padding:15% 20px;
+}
+
+#gpc div{
+    margin: 10px;
+}
+
+#zoom img{
+    margin: 112px 0;
 }
