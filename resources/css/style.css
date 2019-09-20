@@ -97,11 +97,12 @@ a{
     text-align: center;
     font-size: 18px;
     width: 80%;
-    margin: 20px auto;
-    padding: 5px;
+    margin: 60px auto;
+    padding: 10px;
     border: 1px rgba(172, 164, 158, 0.507) solid;
     line-height: 25px;
     border-radius: 15px;
+    background-color: rgba(210, 105, 30, 0.144) ;
 }
 
 /* PHOTOS1 section */
@@ -189,13 +190,11 @@ footer{
 
 /* OEUVRE PAGE */
 
-#introeuvre, #intropeinture{
-    margin: 60px auto; 
-    width: 80%;
-}
-
-#intro40, #intro50, #intro60, #intro70, #intromag, #introfab {
-    margin: 60px auto;
+#magasin{
+    display: block;
+    text-align: center;
+    top: 120px;
+    position: relative;
 }
 
 #annees40{
@@ -209,7 +208,7 @@ footer{
     justify-content: space-evenly;
 }
 
-#oeuvre .photo, #peintures .photo, #magasin .photo, #fabrique .photo {
+#oeuvre .photo, #peintures .photo, #magasin .photo, #fabrique .photo, #magasin2 .photo {
     top: 0;
     margin: 30px;
 }
@@ -220,7 +219,7 @@ footer{
     text-align: left;
 }
 
-#annees50, #annees60, #annees70, #peintures, #magasin, #fabrique {
+#annees50, #annees60, #annees70, #peintures, #fabrique, #magasin2, #piecesuniques {
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto 60px auto;
@@ -233,14 +232,14 @@ footer{
     top: 120px;
 }
 
-#carreaux3{
+#carreaux3, #cruche{
     display: block;
 }
 
 #carreaux3 img{
     margin: 30px;
 }
-#carreauxcont{
+.contphotoniv2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -259,6 +258,6 @@ footer{
 
 }
 
-#fabrique .photo div, #fabrique .photo img {
+#fabrique .photo div {
     width: 100%;
 }
