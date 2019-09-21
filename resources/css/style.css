@@ -190,11 +190,12 @@ footer{
 
 /* OEUVRE PAGE */
 
-#magasin{
+#magasin, #anecdoteimg, #an_assiette{
     display: block;
     text-align: center;
     top: 120px;
     position: relative;
+    text-align: center;
 }
 
 #annees40{
@@ -288,4 +289,43 @@ footer{
 #txtgdebout2{
     width: 100%;
     text-align: left;
+}
+
+/* ANECDOTES page*/
+
+
+
+#anecdoteimg img{
+    width: 800px;
+}
+
+#anecdoteimg p{
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+#an_assiette{
+    margin: 00px auto 200px auto;
+    position: relative;
+    
+}
+
+#article_hongrie p{
+    max-width: 200px;
+    
+}
+#article_hongrie{
+    align-items: flex-start;
+}
+#an_assiette img, #an_hongrie img{
+    margin-top: 20px;
+    width: 600px;
+    height: auto;
+}
+#an_hongrie p img{
+    width: 200px;
+}
+#an_billet img{
+    margin: 20px;
+    width: 400px;
 }
