@@ -232,7 +232,7 @@ footer{
     top: 120px;
 }
 
-#carreaux3, #cruche, #gpc{
+#carreaux3, #cruche, #gpc, #gdpot, #gdebout2 {
     display: block;
 }
 
@@ -243,7 +243,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;    
+    
 }
 
 /*PEINTURES page*/
@@ -269,10 +269,23 @@ footer{
     padding:15% 20px;
 }
 
-#gpc div{
-    margin: 10px;
+#gpc div, #gdpot div, #gdebout2 div{
+    margin: 15px;
 }
 
 #zoom img{
     margin: 112px 0;
+}
+
+#gdebout img {
+    width: 180px;
+}
+
+#gdebout2{
+    max-width: 900px;
+}
+
+#txtgdebout2{
+    width: 100%;
+    text-align: left;
 }
