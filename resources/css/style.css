@@ -356,5 +356,8 @@ footer{
 
 .contphoto div{
     width: auto;
+}
 
+#chandeliers_img img, #noel_img img{
+    width: 500px;
 }
