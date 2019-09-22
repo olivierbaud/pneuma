@@ -29,7 +29,7 @@ nav{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: space-center;
+    align-content: space-around;
 }
 
 a{
@@ -322,7 +322,7 @@ footer{
 #an_assiette{
     margin: 00px auto 200px auto;
     position: relative;
-    
+    top: 0;
 }
 
 #article_hongrie p{
@@ -361,3 +361,25 @@ footer{
 #chandeliers_img img, #noel_img img{
     width: 500px;
 }
+
+#navbar_an{   
+    background-color: rgba(0, 0, 0, 0.836);
+    z-index: 10;
+    height: 120px;
+    width: 90%;
+    margin: 120px auto 0 auto;
+    border-radius: 10px;
+}
+
+#navbar_an a{
+    font-size: 85%;
+}
+
+.sticky {
+    position: fixed;
+    top: 60px;
+    left: 50%;
+    transform: translate(-50%,-50%)
+  }
+
+  
