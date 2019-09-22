@@ -247,6 +247,21 @@ footer{
     
 }
 
+.contphoto{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px auto 60px auto;
+    padding: 20px;
+    height: auto;
+    width: 80%;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 120px;
+    text-align: center;
+}
+
 /*PEINTURES page*/
 
 #peintures, #magasin, #fabrique{
@@ -328,4 +343,18 @@ footer{
 #an_billet img{
     margin: 20px;
     width: 400px;
+}
+
+.contphoto p{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.contphoto img{
+    margin: 20px auto;
+}
+
+.contphoto div{
+    width: auto;
+
 }
