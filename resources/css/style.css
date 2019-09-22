@@ -382,4 +382,14 @@ footer{
     transform: translate(-50%,-50%)
   }
 
-  
+  /* PIcasso Page*/
+  #plan_pic{
+      width: 100%;
+  }
+  #picassobody div{
+      margin: 40px auto;
+  }
+
+  #hom_pic2{
+    width: 100%;
+  }
