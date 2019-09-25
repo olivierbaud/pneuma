@@ -198,17 +198,6 @@ footer{
     text-align: center;
 }
 
-#annees40{
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px auto 60px auto;
-    height: auto;
-    width: 80%;
-    background-color: rgba(128, 128, 128, 0.24);    
-    align-content: center;
-    justify-content: space-evenly;
-}
-
 #oeuvre .photo, #peintures .photo, #magasin .photo, #fabrique .photo, #magasin2 .photo, #piecesuniques .photo {
     top: 0;
     margin: 30px;
@@ -220,7 +209,11 @@ footer{
     text-align: left;
 }
 
-#annees50, #annees60, #annees70, #peintures, #fabrique, #magasin2, #piecesuniques {
+#annees40 .citation, #annees40 .intro{
+    top:0;
+}
+
+#annees40, #annees50, #annees60, #annees70, #peintures, #fabrique, #magasin2, #piecesuniques {
     display: flex;
     flex-wrap: wrap;
     margin: 20px auto 60px auto;
@@ -297,6 +290,10 @@ footer{
 #txtgdebout2{
     width: 100%;
     text-align: left;
+}
+
+#gdpot{
+    padding-top: 15%;
 }
 
 /* ANECDOTES page*/
@@ -385,11 +382,7 @@ footer{
 
   /* FABRIQUE Page*/
 
-  /* #fabrique p{
-      width: 50%;
-      margin:0 auto;
-  } */
-
+  
   /* PIcasso Page*/
   #plan_pic{
       width: 100%;
