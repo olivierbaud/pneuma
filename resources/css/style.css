@@ -403,3 +403,7 @@ footer{
   #hom_pic2{
     width: 100%;
   }
+
+  .offset{
+      height: 120px;
+  }
