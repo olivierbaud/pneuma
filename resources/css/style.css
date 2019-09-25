@@ -231,6 +231,7 @@ footer{
     justify-content: space-evenly;
     position: relative;
     top: 120px;
+    border-radius: 5px;
 }
 
 #carreaux3, #cruche, #gpc, #gdpot, #gdebout2 {
@@ -264,20 +265,12 @@ footer{
 
 /*PEINTURES page*/
 
-#peintures, #magasin, #fabrique{
+#peintures, #magasin{
     margin: 60px auto;
 }
 
 
-/*essais de mise en page images*/
-#fabrique .photo {
-    width: 30%;
 
-}
-
-#fabrique .photo div {
-    width: 100%;
-}
 
 /* OEUVRES UNIQUES page*/
 
@@ -390,7 +383,12 @@ footer{
     /*display: block;*/
   }
 
+  /* FABRIQUE Page*/
 
+  /* #fabrique p{
+      width: 50%;
+      margin:0 auto;
+  } */
 
   /* PIcasso Page*/
   #plan_pic{
