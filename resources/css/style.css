@@ -190,6 +190,45 @@ footer{
 
 /* OEUVRE PAGE */
 
+
+#row{
+display: flex;
+}
+
+.jump{
+top: 50%;
+flex: 30%;
+background-color: rgba(0, 0, 0, 0.9);
+position: fixed;
+}
+
+.jump li{
+    height: 10px;    
+    padding: 20px 0;
+    margin: 40px 0;
+}
+
+.jump a{
+
+}
+
+.citation a {
+    position: absolute;
+    left: 0px;
+    top: -120px;
+}
+
+#annecotesbody .citation a{
+    position: absolute;
+    left: 0px;
+    top: -250px;
+}
+
+#main_oeuvre{
+    margin-left: 10%;
+    
+}
+
 #magasin, #anecdoteimg, #an_assiette{
     display: block;
     text-align: center;
