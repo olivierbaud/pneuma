@@ -32,7 +32,7 @@ nav{
     align-content: space-around;
 }
 
-a{
+a, #navbar_an p{
     padding: 18px;
     color: seashell;
     list-style: none;
@@ -320,7 +320,7 @@ footer{
 }
 
 #an_assiette{
-    margin: 00px auto 200px auto;
+    margin: 0 auto;
     position: relative;
     top: 0;
 }
@@ -371,6 +371,13 @@ footer{
     border-radius: 10px;
 }
 
+@media only screen and (max-width: 1080px){
+    #navbar_an a{
+        padding: 10px;
+        height: auto;
+    }
+}
+
 #navbar_an a{
     font-size: 85%;
 }
@@ -379,8 +386,11 @@ footer{
     position: fixed;
     top: 60px;
     left: 50%;
-    transform: translate(-50%,-50%)
+    transform: translate(-50%,-50%);
+    /*display: block;*/
   }
+
+
 
   /* PIcasso Page*/
   #plan_pic{

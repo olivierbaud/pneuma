@@ -42,11 +42,11 @@
         </div>
 
         <div id="navbar_an" class="navigation">
-            <a href="#an_assiette">L'asssiette et Picasso</a>
+            <a href="#an_assiette" id="an_assiette_link">L'asssiette et Picasso</a>
             <a href="#an_hongrie">Voyage en Hongrie</a>
             <a href="#an_billet">Le billet de 1000 francs</a>
             <a href="#an_noel">Le noel de Grailhe</a>
-            <a href="#an_chandeliers">Les chandeliers</a>
+            <a href="#an_chandeliers" id="lchandeliers">Les chandeliers</a>
             <a href="#an_coupe">La coupe Picasso</a>
             <a href="#an_bals">Bals costumés</a>
             <a href="#an_groupe">Le groupe des cinq</a>
@@ -319,19 +319,8 @@
         <footer>
             contact:<a href="mailto:andrebaud@gmail.com">andrebaud@gmail.com</a> 
         </footer>
-        <script>
-            window.onscroll = function() {myFunction()};
-                
-            var navbar = document.getElementById("navbar_an");
-            var sticky = navbar.offsetTop;
-            console.log(navbar);
-            function myFunction() {
-                if (window.pageYOffset >= sticky-120) {
-                    navbar.classList.add("sticky")
-                  } else {
-                    navbar.classList.remove("sticky");
-                  }
-                }
+        <script src="resources/java/andreabaud.js">
+           
         </script>
     </body>
 </html>
